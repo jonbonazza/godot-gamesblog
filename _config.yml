@@ -1,1 +1,15 @@
+title: Godot Games
+show_downloads: false
 theme: jekyll-theme-slate
+
+authors:
+    jon_bonazza:
+        name: Jon Bonazza
+        email: jonbonazza@gmail.com
+        web: https://twitter.com/nerdwithdice
+
+games:
+    chronicles-of-ethael:
+        name: Chronicles of Ethael
+        author: jon_bonazza
+
