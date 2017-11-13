@@ -1,0 +1,12 @@
+{% for game in site.games %}
+<div style="position: relative; margin-top: 2%;">
+    <a href="{{ site.baseurl }}{{ game.relative-url }}">
+    {% if game["image"} %}
+    <img class="game-hero" src="{{ game.image}}"/>
+    {% else %}
+    <img class="game-hero" src="assets/images/grey-gradient.jpg"/>
+    {% endif %}
+    <h2 class="game-hero-label">{{ game.title }}</h2>
+    </a>
+</div>
+{% endfor %}

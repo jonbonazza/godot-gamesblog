@@ -1,0 +1,20 @@
+{% for post in site.posts %}
+{% if post.game == game %}
+<div class="post-row">
+    {% if post.thumbnail %}
+    <a href="{{ post.url | absolute_url }}">
+    <img class="thumbnail" src="{{ post.thumbnail }}"/>
+    </a>
+    <div class="post-short" style="position: absolute;">
+    {% else %}
+    <div class="post-short">
+    {% endif %}
+    <a href="{{ post.url | absolute_url }}">
+    <h2 class="post-title">{{ post.title }}</h2>
+    </a>
+    <p>{{ post.tagline }} </p>
+    </div>
+    <span class="post-time">Published on {{ post.published }} </span>
+</div>
+{% endif %}
+{% endfor %}

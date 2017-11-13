@@ -265,3 +265,21 @@ Small Device Styles
   h6 { font-size: 12px; }
   code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } }
 .centerv { position: relative; top: 50%; transform: translate(0, -50%); }
+
+.game-hero { vertical-align: bottom; padding: 0; margin: 0; width: 100%; max-width: 100%; max-height: 400px; }
+
+.game-hero-label { width: 100%; background: rgba(255, 255, 255, 0.36); position: absolute; left: 0; padding-left: 4%; bottom: 0; }
+
+.post-row { border-bottom: 1px solid #adabb0; margin-bottom: 30px; position: relative; }
+
+.post-row .thumbnail { width: 20%; display: inline-block; margin: 10px 20px; }
+
+.post-row .post-short { display: inline-block; margin: 10px 0px; }
+
+.post-row .post-title { background: none; margin: 0; padding: 0; }
+
+.post-row .post-time { font-size: 10pt; font-style: italic; position: absolute; right: 0; bottom: 0; margin: 0px 10px 10px 0px; }
+
+.space { width: 10%; }
+
+.space:after { content: '\200b'; }

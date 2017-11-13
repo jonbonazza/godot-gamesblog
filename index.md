@@ -1,1 +1,1 @@
-[Jon Bonazza]({{ site.baseurl }}{% link jonbonazza.md %})
+{% include games.html %}
